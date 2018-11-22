@@ -1,0 +1,32 @@
+{
+  "name": "materialuidemo",
+  "version": "1.0.0",
+  "description": "personal test of material UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "umi dev",
+    "build": "umi build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^3.5.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-tap-event-plugin": "^3.0.3",
+    "umi": "^2.2.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "1.11.0",
+    "eslint": "4.17.0",
+    "eslint-config-umi": "0.1.2",
+    "eslint-plugin-flowtype": "2.42.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "7.6.1",
+    "umi-plugin-react": "^1.2.3",
+    "webpack": "^4.26.0"
+  }
+}

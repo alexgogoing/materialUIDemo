@@ -1,18 +1,22 @@
 # Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+/node_modules
+package-lock.json
+.DS_Store
+/config
+config.*
+.umirc.js
+/.umi
+.umi
+.umi-production
 
 # Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+/.idea
+.webpackrc.js
+dist
+.nyc_output
+npm-debug.log*
+lerna-debug.log
+.changelog
+devdoc
+/.vs
+/.webpackrc.js
